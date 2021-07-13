@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body class="debug">
+<body>
     <div class="container">
+        <div class="esercizio-titolo">
+            <h1>Esercizio per Casa</h1>
+        </div>
         <div class="row">
             <div class="col-1">1 col</div>
             <div class="col-1">1 col</div>
@@ -39,35 +42,87 @@
             <div class="col-2">2 col</div>
             <div class="col-6">6 col</div>
             <div class="col-1">1 col</div>
-            <div class="col-6">6 col nasted</div>
-            <div class="col-6">6 col nasted</div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="colnested2">
+                        Nested 2 col
+                    </div>
+                    <div class="colnested2">
+                        Nested 2 col
+                    </div>
+                    <div class="colnested8">
+                        Nested 8 col
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="row">
+                    <div class="colnested6">
+                        Nested 6 col
+                    </div>
+                    <div class="colnested6">
+                        Nested 6 col
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="containerdue">
-        <div class="row">
-            <div class="col-12"></div>
-            <div class="col-1"></div>
-            <div class="col-11"></div>
-            <div class="col-2"></div>
-            <div class="col-10"></div>
-            <div class="col-3"></div>
-            <div class="col-9"></div>
-            <div class="col-4"></div>
-            <div class="col-8"></div>
-            <div class="col-5"></div>
-            <div class="col-7"></div>
-            <div class="col-6"></div>
-            <div class="col-6"></div>
-        </div>
-    </div>
     
-
-
-
-
-
-
-
-
+       <div class="container-due">
+           <div class="row">
+                <div class="col-12"></div>
+                <div class="col-1"></div>
+                <div class="col-11"></div>
+                <div class="col-2"></div>
+                <div class="col-10"></div>
+                <div class="col-3"></div>
+                <div class="col-9"></div>
+                <div class="col-4"></div>
+                <div class="col-8"></div>
+                <div class="col-5"></div>
+                <div class="col-7"></div>
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+           </div>
+       </div>
+       <div class="offset">
+           <h1>Offset</h1>
+       </div>
+       <div class="container-tre">
+           <div class="row">
+               <div class="col-1 col-offset-11"></div>
+               <div class="col-2 col-offset-10"></div>
+               <div class="col-3 col-offset-9"></div>
+               <div class="col-4 col-offset-8"></div>
+               <div class="col-5 col-offset-7"></div>
+               <div class="col-6 col-offset-6"></div>
+               <div class="col-7 col-offset-5"></div>
+               <div class="col-8 col-offset-4"></div>
+               <div class="col-9 col-offset-3"></div>
+               <div class="col-10 col-offset-2"></div>
+               <div class="col-11 col-offset-1"></div>
+           </div>
+       </div>
+       <div class="nasted-down">
+            <h1>Nested</h1>
+       </div>
+       <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <div class="row">
+                        <div class="colnested3"></div>
+                        <div class="colnested6"></div>
+                        <div class="colnested3"></div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="colnested6"></div>
+                        <div class="colnested6"></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
 </body>
 </html>
